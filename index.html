@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="shortcut icon"
+      href="favicon/icons8-calculator-144.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="calculator">
+      <p>Made by Arjun Patel.</p>
+      <form>
+        <input type="text" class="screen" />
+      </form>
+
+      <div class="buttons">
+        <button type="button" class="btn btn-clear" id="AC">AC</button>
+        <button
+          type="button"
+          class="btn btn-yellow division"
+          data-num="/"
+          id="/"
+        >
+          ÷
+        </button>
+        <button type="button" class="btn btn-grey 7" data-num="7" id="7">
+          7
+        </button>
+        <button type="button" class="btn btn-grey" data-num="8" id="8">
+          8
+        </button>
+        <button type="button" class="btn btn-grey" data-num="9" id="9">
+          9
+        </button>
+        <button type="button" class="btn btn-yellow" data-num="*" id="*">
+          ×
+        </button>
+        <button type="button" class="btn btn-grey" data-num="4" id="4">
+          4
+        </button>
+        <button type="button" class="btn btn-grey" data-num="5" id="5">
+          5
+        </button>
+        <button type="button" class="btn btn-grey" data-num="6" id="6">
+          6
+        </button>
+        <button type="button" class="btn btn-yellow" data-num="-" id="-">
+          -
+        </button>
+        <button type="button" class="btn btn-grey" data-num="1" id="1">
+          1
+        </button>
+        <button type="button" class="btn btn-grey" data-num="2" id="2">
+          2
+        </button>
+        <button type="button" class="btn btn-grey" data-num="3" id="3">
+          3
+        </button>
+        <button type="button" class="btn btn-yellow" data-num="+" id="+">
+          +
+        </button>
+
+        <button type="button" class="btn btn-zero btn-grey" data-num="0" id="0">
+          0
+        </button>
+        <button type="button" class="btn btn-grey" data-num="." id=".">
+          .
+        </button>
+
+        <button type="button" class="btn-equal" id="=">=</button>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
