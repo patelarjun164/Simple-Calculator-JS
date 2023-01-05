@@ -103,4 +103,21 @@ p {
     box-shadow: 0 2px 1px 0 #dbedf3;
     opacity: 0.5;
   }
+
+@media (max-width: 500px){
+
+    body {
+        min-height: 100vh;
+        background-color: #000;
+        display:block;
+        justify-content: center;
+        margin-left: 50px;
+        align-items: center;
+    }
+    
+    .calculator {
+        margin-top: 50px;
+    }
+    
+  }
   
